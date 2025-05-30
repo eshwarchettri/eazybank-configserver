@@ -2,7 +2,7 @@ build:
   version: 1.0
 
 loans:
-  message: This is Loans micro service in Prod
+  message: This is Loans micro service in production
   contact:
     name: Eshwar Chettri - Developer
     email: eshwarc@hotmail.com
