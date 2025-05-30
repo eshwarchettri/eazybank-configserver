@@ -1,0 +1,14 @@
+build:
+  version: 1.0
+accounts:
+  message: This is accaount micro service
+  contact:
+    name: Eshwar Chettri - Developer
+    email: eshwarc@hotmail.com
+  phones:
+    - +1 (234) 231 2342
+    - +1 (321) 312 2423
+
+
+
+

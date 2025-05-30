@@ -1,0 +1,11 @@
+uild:
+  version: 1.0
+
+cards:
+  message: This is Cards micro service in Dev
+  contact:
+    name: Eshwar Chettri - Developer
+    email: eshwarc@hotmail.com
+  phones:
+    - +1 (555) 231 2342
+    - +1 (555) 312 2423

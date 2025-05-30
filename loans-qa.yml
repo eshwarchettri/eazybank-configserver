@@ -1,0 +1,15 @@
+build:
+  version: 1.0
+
+loans:
+  message: This is Loans micro service in QA
+  contact:
+    name: Eshwar Chettri - Developer
+    email: eshwarc@hotmail.com
+  phones:
+    - +1 (444) 231 2342
+    - +1 (444) 312 2423
+
+
+
+
