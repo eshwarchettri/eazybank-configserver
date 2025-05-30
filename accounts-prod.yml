@@ -2,7 +2,7 @@ build:
   version: 1.0
 
 accounts:
-  message: This is EazyBank Account microservice in production
+  message: Welcome to EazyBank Account microservice in production
   contact:
     name: Eshwar Chettri - Developer
     email: eshwarc@hotmail.com
