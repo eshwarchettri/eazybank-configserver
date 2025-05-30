@@ -2,7 +2,7 @@ build:
   version: 1.0
 
 accounts:
-  message: Welcome to the EazyBank Account Microservice in Production
+  message: Welcome to the EazyBank Account Microservice Production file
   contact:
     name: Eshwar Chettri - Developer
     email: eshwarc@hotmail.com
