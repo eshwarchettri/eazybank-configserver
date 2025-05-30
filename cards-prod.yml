@@ -2,7 +2,7 @@ build:
   version: 1.0
 
 cards:
-  message: This is Cards micro service in production
+  message: Welcome to EazyBank Cards microservice in production
   contact:
     name: Eshwar Chettri - Developer
     email: eshwarc@hotmail.com
