@@ -1,7 +1,7 @@
 build:
   version: 1.0
 accounts:
-  message: This is accaount micro service
+  message: Welcome to the EazyBank Account microservice
   contact:
     name: Eshwar Chettri - Developer
     email: eshwarc@hotmail.com
