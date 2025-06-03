@@ -9,3 +9,29 @@ eureka:
     registerWithEureka: true
     serviceUrl:
       defaultZone: http://localhost:8070/eureka/
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: accountsModule
+          uri: lb://ACCOUNTS
+          predicates:
+            - Path=/eazybank/accounts/api/**
+          filters:
+            - RewritePath=/eazybank/accounts/(?<segment>.*), /${segment}
+            - AddResponseHeader=X-Response-Time, "#{T(java.time.LocalDateTime).now().toString()}"
+        - id: loansModule
+          uri: lb://LOANS
+          predicates:
+            - Path=/eazybank/loans/api/**
+          filters:
+            - RewritePath=/eazybank/loans/(?<segment>.*), /${segment}
+            - AddResponseHeader=X-Response-Time, "#{T(java.time.LocalDateTime).now().toString()}"
+        - id: cardsModule
+          uri: lb://CARDS
+          predicates:
+            - Path=/eazybank/cards/api/**
+          filters:
+            - RewritePath=/eazybank/cards/(?<segment>.*), /${segment}
+            - AddResponseHeader=X-Response-Time, "#{T(java.time.LocalDateTime).now().toString()}"
